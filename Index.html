@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Scholarly</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+      background: linear-gradient(0deg, #d2ceed, ##ceebed);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      color: #be456a;
+    }
+
+
+    h3 {
+      margin-top: 0;
+      color: #715c63;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #4b5563;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 12px;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Scholarly</h1>
+    <h3>Your learning starts today!</h3>
+    <p>
+      Here to help you purchase the best products for your skin type.
+    </p>
+  </div>
+
+  <!-- Airia Chat Root -->
+  <div id="root"></div>
+
+  <footer>
+    Built for AgentathonX 2026.
+  </footer>
+  <script type="module">
+        import AiriaChat from "https://embed-api.airia.ai/get-chat-embed.js"
+        AiriaChat.init({pipelineId: "ef4a5255-3bce-407e-8c4c-df89cf7225f8",
+                        apiKey: "ak-MTIzNDI0Nzc3OHwxNzcyNjAzNjY5ODAwfHRpLVpHVmpiMlJwYm1jZ1pHRjBZU0J6WTJsbGJtTmxMVTl3Wlc0Z1VtVm5hWE4wY21GMGFXOXVMVkJ5YjJabGMzTnBiMjVoYkY5aVpXVXdZbUl3T0MweE9USTNMVFF4TVdRdFlqSTVPUzB4WkRSak5HTTRaVFUwWWpRPXwxfDMwNDUzNDI3NSAg",
+                        apiUrl: "https://embed-api.airia.ai",
+                        greeting: "Hey there! What do need help with today? ",
+                        imagePath: "https://yoursite.com/assets/chatbot-icon.png",
+                        imageSize: "small",
+                        imageBgColor: "#FFFFFF",
+                        autoOpen: true})
+    </script>
+</body>
+
+</html>
